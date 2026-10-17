@@ -33,8 +33,6 @@ The goal of this project is to identify customers who are likely to churn by exp
 - **Model Interpretability:** SHAP
 - **Environment:** Kaggle Notebooks
 
-*Update this list to match the libraries and tools actually used in your implementation.*
-
 ## Machine Learning Workflow
 
 ### 1. Exploratory Data Analysis
@@ -58,8 +56,6 @@ When churn cases are less common than retained customers, a model may favor the 
 - Random undersampling
 - SMOTE oversampling
 
-The selected approach should be evaluated on validation data. Apply resampling only to the training data.
-
 ### 4. Model Development
 
 Models considered for comparison include:
@@ -67,11 +63,8 @@ Models considered for comparison include:
 | Model | Purpose |
 |---|---|
 | Logistic Regression | Establish an interpretable baseline |
-| Random Forest | Capture nonlinear patterns and feature interactions |
-| XGBoost | Explore gradient-boosted decision trees |
 | LightGBM | Explore efficient gradient boosting |
 
-*Retain only the models actually implemented in the project.*
 
 ### 5. Model Evaluation
 
@@ -89,11 +82,6 @@ The most suitable model depends on the validation results and the relative cost 
 
 SHAP (SHapley Additive exPlanations) can be used to examine how individual features contribute to model predictions and identify factors associated with churn.
 
-*Include this section only if SHAP or another interpretability method was actually used.*
-
-## Results
-
-Add your verified results here after evaluating the models.
 
 | Model | Precision | Recall | F1-score | ROC-AUC | PR-AUC |
 |---|---:|---:|---:|---:|---:|
@@ -102,7 +90,6 @@ Add your verified results here after evaluating the models.
 | XGBoost | — | — | — | — | — |
 | LightGBM | — | — | — | — | — |
 
-Replace the dashes with measured results and remove rows for models that were not evaluated. Do not report unverified metrics.
 
 ## Key Learnings
 
@@ -114,7 +101,6 @@ Replace the dashes with measured results and remove rows for models that were no
 
 ## Future Improvements
 
-- Perform systematic hyperparameter tuning.
 - Optimize the prediction threshold based on business requirements.
 - Evaluate generalization on unseen data.
 - Build a reproducible prediction pipeline.
