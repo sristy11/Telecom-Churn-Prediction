@@ -83,14 +83,6 @@ The most suitable model depends on the validation results and the relative cost 
 SHAP (SHapley Additive exPlanations) can be used to examine how individual features contribute to model predictions and identify factors associated with churn.
 
 
-| Model | Precision | Recall | F1-score | ROC-AUC | PR-AUC |
-|---|---:|---:|---:|---:|---:|
-| Logistic Regression | — | — | — | — | — |
-| Random Forest | — | — | — | — | — |
-| XGBoost | — | — | — | — | — |
-| LightGBM | — | — | — | — | — |
-
-
 ## Key Learnings
 
 - Understanding class imbalance in classification tasks.
